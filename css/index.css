@@ -1,0 +1,46 @@
+.content-around {
+  background-color: var(--secondary-color);
+  padding: 1em;
+  margin: 0.2em;
+  border-radius: 0.5em;
+}
+
+.content-around a {
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.qr-title {
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.card-qrcode{
+  background-color: var(--primary-color);
+  margin: 38px 0;
+  border: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .card{
+    width: 60%;
+  }
+
+  .gerenciar-qr-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .card-qrcode .card-body {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  
+}

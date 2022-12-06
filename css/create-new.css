@@ -1,0 +1,33 @@
+.dark-background {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+main > svg {
+  margin-top: -50px;
+}
+
+.container-criar-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.criar-qr {
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.criar-qr * {
+  margin: 0.5em;
+}
+
+#bt-gerar-qr {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  font-weight: 600;
+  padding: 15px 5px;
+}
