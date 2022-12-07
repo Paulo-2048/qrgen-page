@@ -18,8 +18,8 @@ register.addEventListener("click", (e) => {
       cpf: "123.456.789-10",
       email: email,
       password: password,
-      acess: "B",
-      token: "123qwert",
+      acess: "TFE",
+      token: Math.random().toString(36).substr(2),
     },
   };
 
