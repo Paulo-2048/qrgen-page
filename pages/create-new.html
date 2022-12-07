@@ -91,15 +91,23 @@
         </div>
       </section>
 
-      <img src="../src/waves.svg" alt="waves">
+      <img src="../src/waves.svg" alt="waves" />
 
       <div class="dark-background">
         <section class="container container-criar-qr">
           <div class="criar-qr">
             <input
+              id="titleText-qr"
               type="url"
               class="form-control content-input"
-              placeholder="Insert Text or URL"
+              placeholder="Insert Title of QR"
+            />
+
+            <input
+              id="contentText-qr"
+              type="url"
+              class="form-control content-input"
+              placeholder="Insert Only URL for QR"
             />
 
             <div class="qr-img">
@@ -123,7 +131,7 @@
               </svg>
             </div>
 
-            <button class="btn btn-secondary" id="bt-gerar-qr">
+            <button class="btn btn-secondary" id="btn-gerar-qr">
               Create New QR Code
             </button>
           </div>
@@ -145,6 +153,9 @@
 
     <!-- Scripts -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0-rc.4/dist/js.cookie.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/create-new.js"></script>
   </body>
 </html>

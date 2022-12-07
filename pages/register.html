@@ -28,26 +28,32 @@
 
           <div class="login-form-content dark-background">
             <div class="login-form-input d-flex justify-content-center">
-              <form>
+              <form id="register-form">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
                   <input
                     type="email"
                     class="form-control"
                     id="email"
+                    name="email"
                     aria-describedby="emailHelp"
                   />
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="password" />
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                  />
 
                   <label for="password" class="form-label"
                     >Confirmar Senha</label
                   >
-                  <input type="password" class="form-control" id="password" />
+                  <input type="password" class="form-control" id="repeate-password" />
                 </div>
-                <a href="#" class="btn btn-light btn-total-width mb-2"
+                <a id="register-btn" class="btn btn-light btn-total-width mb-2"
                   >Registrar-se</a
                 >
                 <a
@@ -64,7 +70,9 @@
 
     <!-- Scripts -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0-rc.4/dist/js.cookie.min.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="/js/register.js"></script>
   </body>
 </html>

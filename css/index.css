@@ -5,6 +5,11 @@
   border-radius: 0.5em;
 }
 
+.content-around img {
+  height: 100px;
+  width: 100px;
+}
+
 .content-around a {
   border: none;
   background-color: var(--secondary-color);
