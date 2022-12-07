@@ -1,9 +1,6 @@
-.dark-background {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
 
-main > svg {
+
+main > img {
   margin-top: -50px;
 }
 

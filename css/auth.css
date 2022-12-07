@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+main,
+.login-content {
+  height: 100vh;
+}
+
+.login-logo{
+  margin-top: 120px;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form-content {
+  height: calc(100vh - 50%);
+}
+
+.btn-total-width {
+  width: 100%;
+}

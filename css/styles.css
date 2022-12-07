@@ -40,4 +40,8 @@ section {
   padding: 2rem 0;
 }
 
+.dark-background {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
 
